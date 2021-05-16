@@ -1,22 +1,28 @@
-import java.awt.Color; 
+import java.awt.Color;
 import java.awt.GridBagConstraints;
 import java.awt.GridLayout;
+import java.awt.BorderLayout;
 import java.awt.image.BufferedImage; 
 import java.io.IOException;
 import java.io.InputStream;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon; 
-import javax.swing.JButton; 
+import javax.swing.JLabel;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel; 
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 /**
  * Write a description of class GUI here.
  *
- * @author (your name)
+ * @author (Kelvin Likollari)
  * @version (a version number or a date)
  */
 public class GUI
 {
+    // size of the window that is going to 
+    // represent the expression simplification instead.
     public static int frameSizeX = 500;
     public static int frameSizeY = 500;
     public static int panelSizeX = 500;
