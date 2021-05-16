@@ -23,13 +23,27 @@ public class ExpressionSimplifierGame
     }
     
     /**
-     * The method can allow to move the piece.
-     * @param userMove indicate.
+     * This method closes the game.
+     * @param userAction the thing that the user will do
+     * aka press the key q.
      */
     public static void quitGame(final String userAction) { 
        // Given a key press, close the game.
        // use q for Quit.
        if ("q".equals(userAction)) { 
+           System.exit(0);
+        }       
+    }
+    
+    /**
+     * This method closes the game.
+     * @param userAction the thing that the user will do
+     * aka press the key q.
+     */
+    public static void restartGame(final String userAction) { 
+       // Given a key press, close the game.
+       // use q for Quit.
+       if ("r".equals(userAction)) { 
            System.exit(0);
         }       
     }
