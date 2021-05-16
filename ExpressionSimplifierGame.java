@@ -19,7 +19,11 @@ public class ExpressionSimplifierGame
      * 
      */
     public ExpressionSimplifierGame() {
-        //
+        this.user = user;
+        this.expression = expression;
+        this.player = player;
+        this.x = x;
+        this.y = y;
     }
     
     /**
