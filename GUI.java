@@ -1,13 +1,4 @@
 import java.awt.Color;
-import java.awt.GridBagConstraints;
-import java.awt.GridLayout;
-import java.awt.BorderLayout;
-import java.awt.image.BufferedImage; 
-import java.io.IOException;
-import java.io.InputStream;
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon; 
-import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel; 
