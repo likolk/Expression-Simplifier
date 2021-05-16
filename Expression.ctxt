@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Expression
+comment0.text=\n\ Write\ a\ description\ of\ class\ Expression\ here.\n\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (05.05.2021)\n
+comment1.params=x
+comment1.target=void\ evaluate(int)
+comment1.text=\n\ Evaluate\ this\ Expression.\n\ @param\ storage\ The\ "memory"\ to\ use\ during\ the\ execution\n
+comment2.params=
+comment2.target=Expression\ simplify()
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\n\ A\ Parser\ can\ convert\ source\ code\ into\ an\ AST\n\ consisting\ of\ Node\ objects.\n
+comment1.params=sourceCode
+comment1.target=Node\ parse(java.lang.String)
+comment1.text=\n\ Parse\ the\ given\ source\ code.\n\ @param\ sourceCode\ The\ source\ code\ of\ the\ program\n\ @return\ the\ AST\ of\ the\ program\n
+numComments=2

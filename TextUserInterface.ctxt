@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TextUserInterface
+comment0.text=\n\ ...\n
+comment1.params=model
+comment1.target=TextUserInterface(Model)
+comment1.text=\n\ Create\ a\ new\ TUI\ operating\ on\ the\ given\ Model.\n\ @param\ model\ The\ model\ of\ this\ application\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Run\ the\ application.\n
+numComments=3

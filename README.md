@@ -1,3 +1,2 @@
-# project-simplifier-likollari-benincasa
-
-Expression Simplifier Project by Likollari Kelvin & Benincasa Nicolo
+# ExpressionSimplifier
+Expression Simplifier Project in Java
