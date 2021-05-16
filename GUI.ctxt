@@ -1,10 +1,4 @@
 #BlueJ class context
 comment0.target=GUI
 comment0.text=\n\ Write\ a\ description\ of\ class\ GUI\ here.\n\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=expression
-comment1.target=GUI(Expression)
-comment1.text=\n\ Constructor\ for\ the\ Gui\ class.\n\ @param\ chessBoard\ \ the\ chessBoard\ created.\n
-comment2.params=
-comment2.target=void\ setPanel()
-comment2.text=\n\ the\ method\ set\ a\ panel\ for\ the\ Gui.\n
-numComments=3
+numComments=1

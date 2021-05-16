@@ -26,12 +26,16 @@ public class ExpressionSimplifierGame
         this.y = y;
     }
     
+    public ExpressionWindow getWindow() {
+        return this.expression;
+    }
+  
     /**
      * This method closes the game.
      * @param userAction the thing that the user will do
      * aka press the key q.
      */
-    public static void quitGame(final String userAction) { 
+    public static void quitGame (final String userAction) { 
        // Given a key press, close the game.
        // use q for Quit.
        if ("q".equals(userAction)) { 

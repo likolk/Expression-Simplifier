@@ -30,31 +30,7 @@ public class GUI
      
     public JFrame frame;
     public JPanel panel;
-    
-    
-    /**
-     * Constructor for the Gui class.
-     * @param chessBoard  the chessBoard created.
-     */
-    //we have a 8x8 grid aka matrix.
-    public GUI(final Expression expression) 
-    { 
-        frame = new JFrame("Chess");
-        // something jere
-        setPanel();
-        // here too 
-        /*startFrame();*/
-        frame.add(panel);
-    }
-    
-    
-    /**
-     * the method set a panel for the Gui.
-     */
-    public void setPanel() {
-        panel = new JPanel();
-        panel.setSize(panelSizeX, panelSizeY);
-        panel.setLayout(new GridLayout(8,8));
-    }
 }
+    
+    
     
