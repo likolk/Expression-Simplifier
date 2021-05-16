@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.target=ExpressionSimplifierGame
 comment0.text=\n\ Write\ a\ description\ of\ class\ ExpressionSimplifierGam\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-numComments=1
+comment1.params=
+comment1.target=ExpressionSimplifierGame()
+comment1.text=\n\ Constructor\n\ \n
+comment2.params=userAction
+comment2.target=void\ quitGame(java.lang.String)
+comment2.text=\n\ The\ method\ can\ allow\ to\ move\ the\ piece.\n\ @param\ userMove\ indicate.\n
+numComments=3

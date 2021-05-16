@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ExpressionWindow
+comment0.text=\n\ Write\ a\ description\ of\ class\ ExpressionWindow\ here.\n\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=x\ y
+comment1.target=ExpressionWindow(int,\ int)
+comment1.text=\n\ Constructor\ for\ the\ object\ of\ expressionwindow.\n\ @param\ x\ the\ coordinate\ x\ of\ the\ window.\n\ @param\ y\ the\ coordinate\ y\ of\ the\ window.\n
+comment2.params=x\ y
+comment2.target=ExpressionWindow\ reset(int,\ int)
+comment2.text=\n\ Method\ to\ reset\ the\ game.\n\ @param\ x\ \n\ @param\ y\n
+numComments=3
