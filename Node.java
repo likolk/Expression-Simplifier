@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Νοδε here.
+ * Write a description of class Νode here.
  *
  * @author (Kelvin Likollari)
  * @version (05.05.2021)

@@ -56,4 +56,17 @@ public class ExpressionSimplifierGame
            System.exit(0);
         }       
     }
+    
+    
+    public void printWelcomeMessage() {
+        // 
+    }
+    
+    public void printGoodbyeMessage() {
+        // 
+    }
+    
+    
+    
+    
 }

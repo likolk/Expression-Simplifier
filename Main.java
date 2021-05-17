@@ -11,8 +11,8 @@ public class Main {
         final Model model = new Model();
         final TextUserInterface TUI = new TextUserInterface(model);
         TUI.run();
-        // also print a welcome message of the game
+        // also may print a welcome message of the game
         
-        // also print a good bye message of the game.
+        // also may print a good bye message of the game.
     }
 }

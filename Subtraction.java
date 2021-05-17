@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Subtraction extends Expression
+public class Subtraction extends Variable
 {
     // instance variables - replace the example below with your own
     private int x;
