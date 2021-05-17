@@ -16,12 +16,34 @@ public class GUI
     // represent the expression simplification instead.
     public static int frameSizeX = 500;
     public static int frameSizeY = 500;
+    
     public static int panelSizeX = 500;
     public static int panelSizeY = 500;
      
     public JFrame frame;
     public JPanel panel;
+    
+    public GUI(final ExpressionWindow expression)
+    {
+        frame = new JFrame("Expression Simolifier Game");
+        // add also width, height of the window that will be
+        // showing the expressions.
+    }
+    
+    /**
+     * Method that generates the initial frame.
+     */
+    public void startFrame() {
+        frame = new JFrame("Expression Simolifier Game");
+        frame.setSize(frameSizeX, frameSizeY);
+        // more code to be added
+    }
 }
+    
+    
+    
+    
+    
     
     
     

@@ -43,6 +43,7 @@ public class ExpressionSimplifierGame
         }       
     }
     
+    // the following method does not work properly
     /**
      * This method closes the game.
      * @param userAction the thing that the user will do
