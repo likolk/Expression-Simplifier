@@ -5,7 +5,7 @@
  * @author (Kelvin Likollari)
  * @version (5/5/21)
  */
-public class Addition extends Variable
+public class Addition extends Node
 {
     
     

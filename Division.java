@@ -5,7 +5,7 @@
  * @author (Kelvin Likollari)
  * @version (05.05.2021)
  */
-public class Division extends Variable
+public class Division extends Node
 {
     // instance variables - replace the example below with your own
 }

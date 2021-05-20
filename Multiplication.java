@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Multiplication extends Variable
+public class Multiplication extends Node
 {
     // instance variables - replace the example below with your own
     private int x;

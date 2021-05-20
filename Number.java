@@ -5,7 +5,7 @@
  * @author (Kelvin Likollari)
  * @version (05/05/21)
  */
-public class Number extends Expression
+public class Number extends Node
 {
     private final int num;
 

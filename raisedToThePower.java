@@ -5,7 +5,7 @@
  * @author (Kelvin Likollari)
  * @version (a version number or a date)
  */
-public class raisedToThePower extends Variable
+public class raisedToThePower extends Node
 {
     // to be filled in soon
 }    
