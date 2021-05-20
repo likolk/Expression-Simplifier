@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Main
-comment0.text=\n\ ...\n
+comment0.text=\n\ This\ class\ contains\ the\ main\ method\ that\ is\ the\ entry\ point\ where\ the\ expression\n\ simplifier\ application\ starts\ executing.\ The\ main\ method\ creates\ the\ model,\ then\ \n\ creates\ the\ User\ Interface\ by\ passing\ the\ model\ to\ the\ UI,\ so\ that\ the\ UI\ will\ know\n\ the\ model,\ and\ lastly\ makes\ the\ User\ Interface\ visible.\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment1.text=\n\ Run\ the\ application\ (from\ the\ command\ line).\n\ @param\ args\ the\ command\ line\ arguments\n

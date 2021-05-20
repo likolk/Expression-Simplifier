@@ -5,7 +5,6 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class User extends ExpressionSimplifierGame
+public class User
 {
-    // methods to be added.
 }
