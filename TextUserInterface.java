@@ -20,5 +20,4 @@ public class TextUserInterface {
     public void run() {
         System.out.println("Welcome to " + model.toString());
     }
-    
 }

@@ -1,5 +1,8 @@
 /**
- * ...
+ * This class contains the main method that is the entry point where the expression
+ * simplifier application starts executing. The main method creates the model, then 
+ * creates the User Interface by passing the model to the UI, so that the UI will know
+ * the model, and lastly makes the User Interface visible.
  */
 public class Main {
     
