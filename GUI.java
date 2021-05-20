@@ -1,10 +1,10 @@
-import java.awt.Color;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel; 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JOptionPane;
+import java.awt.GridBagConstraints;
+import java.awt.GridLayout;
 
 /**
  * Write a description of class GUI here.
@@ -16,29 +16,36 @@ public class GUI
 {
     // size of the window that is going to 
     // represent the expression simplification instead.
-    public static int frameSizeX = 500;
-    public static int frameSizeY = 500;
+    private static int frameSizeX = 1000;
+    private static int frameSizeY = 1000;
     
-    public static int panelSizeX = 500;
-    public static int panelSizeY = 500;
+    private static int panelSizeX = 1000;
+    private static int panelSizeY = 1000;
      
-    public JFrame frame;
-    public JPanel panel;
+    private JFrame frame;
+    private JPanel panel;
+    
+    private GridBagConstraints constraint;
+    
+    private ExpressionWindow expression;
+    
     
     public GUI(final ExpressionWindow expression)
     {
         frame = new JFrame("Expression Simolifier Game");
-        // add also width, height of the window that will be
-        // showing the expressions.
+        this.expression = expression;
     }
     
     /**
-     * Method that generates the initial frame.
+     * Method that generates the starting frame shown to user in 
+     * the beginning.
      */
     public void startFrame() {
-        frame = new JFrame("Expression Simolifier Game");
+        frame = new JFrame("Expression Simolifier Game!");
+        frame.setLayout(new GridLayout());
         frame.setSize(frameSizeX, frameSizeY);
-        // more code to be added
+        frame.show();
+        
     }
     
     /**
@@ -77,9 +84,28 @@ public class GUI
         // of how to implement this method.
     }
     
+    /**
+     * A method that sets the panel for the GUI
+     */
+    public void setPanel() {
+        panel = new JPanel();
+        // step 2 size of panel
+        // it will be x by y
+        panel.setSize(panelSizeX, panelSizeY);
+        panel.setLayout(new GridLayout(10,10));
+    }
     
-    
-    
+    /**
+     * Refreshes the panel after every click.
+     */
+    public void refreshFrameAfterEveryClick() {
+        frame.getContentPane().remove(panel);
+        setPanel();
+        frame.add(panel);
+        panel.revalidate();
+        panel.repaint();
+    }
+  
 }
     
     
