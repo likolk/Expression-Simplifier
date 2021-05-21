@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LexicalAnalyzer
+comment0.text=\n\ Write\ a\ description\ of\ class\ LexicalAnalyzer\ here.\n\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=expression
+comment1.target=LexicalAnalyzer(java.lang.String)
+comment1.text=\n\ Create\ an\ analyzer\ for\ the\ given\ text,\ \n\ using\ the\ given\ factories\ to\ recognize\ and\ create\ tokens.\n\ @param\ expression\ The\ text\ to\ analyze\n\ @param\ factories\ The\ token\ factories\ to\ use\n
+comment2.params=
+comment2.target=Token\ getCurrentToken()
+comment2.text=\n\ Get\ the\ current\ token.\n\ @return\ the\ current\ token\n
+comment3.params=
+comment3.target=Token\ scanToken()
+numComments=4
