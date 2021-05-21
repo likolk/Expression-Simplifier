@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Multiplication here.
+ * Write a description of class Cos here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Multiplication extends Expression
+public class Cos extends Expression
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Multiplication
+     * Constructor for objects of class Cos
      */
-    public Multiplication()
+    public Cos()
     {
         // initialise instance variables
         x = 0;

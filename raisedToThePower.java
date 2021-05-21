@@ -5,7 +5,7 @@
  * @author (Kelvin Likollari)
  * @version (a version number or a date)
  */
-public class raisedToThePower extends Node
+public class raisedToThePower extends Expression
 {
     // to be filled in soon
 }    
