@@ -1,4 +1,5 @@
-
+import java.util.List;
+import java.util.ArrayList;
 /**
  * Write a description of class LexicalAnalyzer here.
  *
@@ -7,9 +8,12 @@
  */
 public final class LexicalAnalyzer {
 
-    private Token token;
+    private List<Token> token;
     private String text;
     private int position;
+    private char currentCharacter;
+    private boolean eof; // if its end of file.
+    private int index;
     
     /**
      * Create an analyzer for the given text, 
@@ -17,21 +21,10 @@ public final class LexicalAnalyzer {
      * @param expression The text to analyze
      * @param factories The token factories to use
      */
-    public LexicalAnalyzer(final String expression) {
-        //
+    public LexicalAnalyzer(final String expression, final String
+    factories) {
+        this.token = new ArrayList<>();
     }
-
-    /**
-     * Get the current token.
-     * @return the current token
-     */
-    public Token getCurrentToken() {
-        return token;
-    }
-    
-    // Scan the text and extract the following token
-    public Token scanToken() {
-        return null;
-    }
+    // not completed
 }
-     
+   
