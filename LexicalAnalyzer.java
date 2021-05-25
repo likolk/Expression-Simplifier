@@ -2,7 +2,7 @@
 /**
  * Write a description of class LexicalAnalyzer here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (a version number or a date)
  */
 public final class LexicalAnalyzer {

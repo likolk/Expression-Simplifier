@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ExpressionWindow
-comment0.text=\n\ Write\ a\ description\ of\ class\ ExpressionWindow\ here.\n\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ ExpressionWindow\ here.\n\n\ @author\ ()\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=x\ y
 comment1.target=ExpressionWindow(int,\ int)
 comment1.text=\n\ Constructor\ for\ the\ object\ of\ expressionwindow.\n\ @param\ x\ the\ coordinate\ x\ of\ the\ window.\n\ @param\ y\ the\ coordinate\ y\ of\ the\ window.\n

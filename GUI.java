@@ -9,7 +9,7 @@ import java.awt.GridLayout;
 /**
  * Write a description of class GUI here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (a version number or a date)
  */
 public class GUI
@@ -41,7 +41,7 @@ public class GUI
      * the beginning.
      */
     public void startFrame() {
-        frame = new JFrame("Expression Simolifier Game!");
+        frame = new JFrame("Expression Simplifier Game!");
         frame.setLayout(new GridLayout());
         frame.setSize(frameSizeX, frameSizeY);
         frame.show();

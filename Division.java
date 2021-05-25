@@ -2,7 +2,7 @@
 /**
  * Write a description of class Division here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (05.05.2021)
  */
 public class Division extends Expression

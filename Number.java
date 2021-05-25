@@ -2,7 +2,7 @@
 /**
  * Write a description of class Number here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (05/05/21)
  */
 public class Number extends Expression

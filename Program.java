@@ -2,7 +2,7 @@ import java.util.ArrayList;
 /**
  * Write a description of class Program here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (a version number or a date)
  */
 public class Program extends Instruction

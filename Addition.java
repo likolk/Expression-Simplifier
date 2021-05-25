@@ -2,7 +2,7 @@
 /**
  * Write a description of class Addition here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (5/5/21)
  */
 public class Addition extends Expression

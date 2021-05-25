@@ -2,7 +2,7 @@
 /**
  * Write a description of class ExpressionWindow here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (a version number or a date)
  */
 public class ExpressionWindow

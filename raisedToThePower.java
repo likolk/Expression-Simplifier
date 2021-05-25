@@ -2,7 +2,7 @@
 /**
  * Write a description of class raisedToThePower here.
  *
- * @author (Kelvin Likollari)
+ * @author ()
  * @version (a version number or a date)
  */
 public class raisedToThePower extends Expression
