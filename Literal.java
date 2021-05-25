@@ -5,17 +5,17 @@
  * @author ()
  * @version (05/05/21)
  */
-public class Number extends Expression
+public class Literal extends Expression
 {
-    private final int num;
+    private final int lit;
 
     /**
      * Constructor for objects of class Number
      */
-    public Number(final int number)
+    public Literal(final int literal)
     {
         // initialise instance variables
-        this.num = number;
+        this.lit = literal;
     }
     
    
