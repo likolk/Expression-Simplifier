@@ -1,4 +1,16 @@
 #BlueJ class context
 comment0.target=Token
 comment0.text=\n\ Write\ a\ description\ of\ class\ Token\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-numComments=1
+comment1.params=type\ position
+comment1.target=Token(TokenType,\ Position)
+comment2.params=position\ type\ string
+comment2.target=Token(Position,\ TokenType,\ java.lang.String)
+comment3.params=
+comment3.target=Position\ getPosition()
+comment4.params=
+comment4.target=TokenType\ getType()
+comment5.params=
+comment5.target=java.lang.String\ getString()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
