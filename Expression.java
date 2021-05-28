@@ -1,3 +1,7 @@
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Write a description of class Expression here.
  *
@@ -6,13 +10,37 @@
  */ // TODO: fix subclasses
 public abstract class Expression
 {
-    //private Expression expression1;
-    //private Expression expression2;
+     private String name;
+     private static Map<String, Node> variables  = new HashMap<>();
     
-    //public Expression (Expression e1, Expression e2){
-     //   this.expression1 = e1;
-    //    this.expression2 = e2;
+    
+    public double evaluate(double x) {
+        return x;
     }
+    
+     public String getName() {
+        return name;
+    }
+
+    public String toString() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    // assign the variable w a node.
+    public static void store(Node o, String var) {
+        variables.put(var, o);
+    }
+    
+    
+    
+   
+    
+    
+}
     
     /**
      * Evaluate this Expression.

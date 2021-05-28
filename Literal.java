@@ -12,11 +12,22 @@ public class Literal extends Expression
     /**
      * Constructor for objects of class Number
      */
-    public Literal(final int literal)
+    public Literal(final int lit)
     {
         // initialise instance variables
-        this.lit = literal;
+        super();
+        this.lit = lit;
     }
+    
+    @Override
+    public String toString() {
+        return "'" + lit + "'";
+    }
+    
+    public int getLiteral() {
+        return lit;
+    }
+    
     
    
     
