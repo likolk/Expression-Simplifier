@@ -105,13 +105,4 @@ public class GUI
         panel.revalidate();
         panel.repaint();
     }
-  
 }
-    
-    
-    
-    
-    
-    
-    
-    

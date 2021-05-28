@@ -3,7 +3,7 @@
  *
  * @author (Kelvin Likollari)
  * @version (05.05.2021)
- */
+ */ // TODO: fix subclasses
 public abstract class Expression
 {
     //private Expression expression1;
