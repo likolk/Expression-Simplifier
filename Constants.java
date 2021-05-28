@@ -11,7 +11,6 @@ public class Constants
 {
     // e, pi, infinity, math.random.
     // to be implemented
-    }
 }
 
    
