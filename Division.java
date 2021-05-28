@@ -12,8 +12,8 @@ public class Division extends Expression
    
    public Division() {
        // super(null, null);
-       this.num1 = num1;
-       this.num2 = num2;
+       this.num1 = 0;
+       this.num2 = 0;
     }
     // more methods following
 }

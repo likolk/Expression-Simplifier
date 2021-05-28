@@ -3,7 +3,7 @@
  * A program in a programming language is made up 
  * of different kinds of tokens.
  * This enumeration represents these different kinds.
- */
+ */ 
 public enum  TokenType
 {
     PLUS("addition"),
