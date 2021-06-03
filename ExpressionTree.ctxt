@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ExpressionTree
+comment1.params=type\ leafvalue\ l\ r
+comment1.target=ExpressionTree(int,\ java.lang.Object,\ ExpressionTree,\ ExpressionTree)
+comment2.params=t
+comment2.target=java.lang.String\ toPostfix(ExpressionTree)
+comment3.params=
+comment3.target=ExpressionTree\ getRoot()
+comment4.params=
+comment4.target=java.lang.Object\ getLeafvalueue()
+comment5.params=
+comment5.target=ExpressionTree\ getleftChild()
+comment6.params=
+comment6.target=ExpressionTree\ getrightChild()
+numComments=7
