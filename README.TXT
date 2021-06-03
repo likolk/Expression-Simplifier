@@ -1,16 +1,18 @@
-Project "Expression simplifier"
-Authors: Kelvin Likollari
+ReadMe File:
 
-This project is part of the PF2 Class.
-
+Project Developed by Kelvin Likollari.
 
 
 
-<! C I T A T I O N !>
-
-The following lines contain the help received from colleagues & the chunks
-of code that i got from the Web:
-https://stackoverflow.com/questions/48869808/rendering-an-expression-tree-in-java
 
 
+
+
+
+
+
+
+
+Citation:
+// will mention here all the sources from where i got chunks of code, the colleagues i discussed the project with, and other issues
 
