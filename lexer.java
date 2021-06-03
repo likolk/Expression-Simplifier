@@ -1,14 +1,12 @@
-    import java.io.BufferedReader;
-    import java.io.InputStreamReader;
-    import java.io.StringReader;
-    /**
-       * Write a description of class lexer here.
-     *
-     * @author (Kelvin Likollari)
-     * @version (a version number or a date)
-     */
-    public class Lexer
-    {
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.StringReader;
+/**
+ * Write a description of class lexer here.
+ * @author (Kelvin Likollari)
+ * @version (a version number or a date)
+ */
+public class Lexer {
     public static final int err = 0,
     num = 1,
     id = 2,
@@ -53,9 +51,5 @@
                 }
             }
             while (line.length() == 0);
-        }
     }
-   
-               
-            
-    
+}
