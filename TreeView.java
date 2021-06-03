@@ -13,7 +13,7 @@ public class TreeView extends JPanel  {
     // adjust numbers according to personal preferences.
     private int radius = 20;
     private int levelGap = 50;
-    ExpTree t; 
+    ExpressionTree t; 
 }
 
     
