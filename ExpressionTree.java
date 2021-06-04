@@ -1,6 +1,7 @@
-public class ExpressionTree {
-    
 
+
+// ExpressionTree class
+public class ExpressionTree {    
     //Tree object that is created when an expression is parsed
     private int type;
     private Object leafvalue;
