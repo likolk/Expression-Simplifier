@@ -13,8 +13,10 @@ How to run the project:
 2) Go on the Jexpression class 
 3) Right click on it 
 4) Call the method run on it 
-5) Insert your tree 
-6) Hit the Generate button
+5) Command Line Appears 
+6) Hit ENTER
+7) Insert your tree 
+8) Click the Generate button
 
 
 
