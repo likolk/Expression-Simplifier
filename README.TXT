@@ -1,17 +1,20 @@
-ReadMe File:
+ReadMe File for Expression Simplifier Project
 
-Project Developed by Kelvin Likollari.
+Expression Simplifier Project Developed by Kelvin Likollari.
 
-Working GUI - lacking a few things
+Benincasa Nicolo Vladimir did 0 contributions to the project.
 
-
-
-
+Github repository link: https://github.com/usi-pf2-2021/project-simplifier-likollari-benincasa
 
 
 How to run the project:
-Go on the Jexpression class, right click on it, call the method run,
-on it, insert your tree & hit the Generate button
+
+1) Open Blue
+2) Go on the Jexpression class 
+3) Right click on it 
+4) Call the method run on it 
+5) Insert your tree 
+6) Hit the Generate button
 
 
 
