@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Program
-comment0.text=\n\ Write\ a\ description\ of\ class\ Program\ here.\n\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (04.06.2021)\n
-comment1.params=
-comment1.target=Program()
-comment1.text=\n\ A\ new\ empty\ program.\n
-comment2.params=instruction
-comment2.target=void\ append(Instruction)
-numComments=3

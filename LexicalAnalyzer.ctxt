@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=LexicalAnalyzer
-comment0.text=\n\ Write\ a\ description\ of\ class\ LexicalAnalyzer\ here.\n\n\ @author\ (kl)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=expression\ factories
-comment1.target=LexicalAnalyzer(java.lang.String,\ java.lang.String)
-comment1.text=\n\ Create\ an\ analyzer\ for\ the\ given\ text,\ \n\ using\ the\ given\ factories\ to\ recognize\ and\ create\ tokens.\n\ @param\ expression\ The\ text\ to\ analyze\n\ @param\ factories\ The\ token\ factories\ to\ use\n
-numComments=2
