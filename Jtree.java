@@ -14,7 +14,12 @@ import java.awt.Graphics;
 
 import javax.swing.SwingConstants;
 import java.awt.Color;
-
+/**
+ * Write a description of class Jtree here.
+ *
+ * @author (Kelvin Likollari)
+ * @version (04.06.2021)
+ */
 public class Jtree extends JFrame {
 
 	private JPanel contentPane;

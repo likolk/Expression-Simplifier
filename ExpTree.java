@@ -1,3 +1,9 @@
+/**
+ * Write a description of class ExpTree here.
+ *
+ * @author (Kelvin Likollari)
+ * @version (04.06.2021)
+ */
 public class ExpTree {
     
 

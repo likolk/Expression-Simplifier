@@ -1,9 +1,9 @@
 
 /**
- * Parser Class
+ * Write a description of class Parser here.
  *
- * @author (KL)
- * @version (224242242.24.2.42.24.24.42)
+ * @author (Kelvin Likollari)
+ * @version (04.06.2021)
  */
 public class Parser {
    private Lexer lex;

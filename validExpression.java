@@ -1,5 +1,10 @@
 import java.util.Stack;
-
+/**
+ * Write a description of class validExpression here.
+ *
+ * @author (Kelvin Likollari)
+ * @version (04.06.2021)
+ */
 public class validExpression
 {
     

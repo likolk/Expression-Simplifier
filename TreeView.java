@@ -2,7 +2,12 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import javax.swing.JPanel;
-
+/**
+ * Write a description of class TreeView here.
+ *
+ * @author (Kelvin Likollari)
+ * @version (04.06.2021)
+ */
 public class TreeView extends JPanel  {
     // Class for drawing the Tree onto a panel
     private int radius = 20;
