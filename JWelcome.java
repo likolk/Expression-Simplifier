@@ -67,19 +67,35 @@ public class JWelcome extends JFrame {
         contentPane.add(panel);
         panel.setLayout(null);
         
-        JLabel lblNewLabel = new JLabel("Welcome to the Expression Simplifier Game");
+        
+        JLabel lblNewLabel_3 = new JLabel("Welcome to");
+        lblNewLabel_3.setHorizontalAlignment(SwingConstants.CENTER);
+        lblNewLabel_3.setForeground(new Color(0, 0, 128));
+        lblNewLabel_3.setFont(new Font("Arial", Font.BOLD, 18));
+        lblNewLabel_3.setBounds(34, 20, 367, 83);
+        panel.add(lblNewLabel_3);
+        
+        
+        JLabel lblNewLabel = new JLabel("Expression Simplifier Game");
         lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
         lblNewLabel.setForeground(new Color(0, 0, 128));
         lblNewLabel.setFont(new Font("Arial", Font.BOLD, 18));
         lblNewLabel.setBounds(34, 41, 367, 83);
         panel.add(lblNewLabel);
         
-        JLabel lblNewLabel_1 = new JLabel("Hit ENTER or [Space] to continue");
+        JLabel lblNewLabel_1 = new JLabel("Hit ENTER or [Space]");
         lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
         lblNewLabel_1.setForeground(new Color(0, 0, 128));
         lblNewLabel_1.setFont(new Font("Arial", Font.BOLD, 18));
-        lblNewLabel_1.setBounds(96, 100, 234, 78);
+        lblNewLabel_1.setBounds(96, 110, 234, 78);
         panel.add(lblNewLabel_1);
+        
+        JLabel lblNewLabel_2 = new JLabel("to continue");
+        lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
+        lblNewLabel_2.setForeground(new Color(0, 0, 128));
+        lblNewLabel_2.setFont(new Font("Arial", Font.BOLD, 18));
+        lblNewLabel_2.setBounds(96, 130, 234, 78);
+        panel.add(lblNewLabel_2);
     }
 }
                
