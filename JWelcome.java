@@ -96,6 +96,13 @@ public class JWelcome extends JFrame {
         lblNewLabel_2.setFont(new Font("Arial", Font.BOLD, 18));
         lblNewLabel_2.setBounds(96, 130, 234, 78);
         panel.add(lblNewLabel_2);
+        
+        JLabel lblNewLabel_4 = new JLabel("(c) Kelvin Likollari");
+        lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+        lblNewLabel_4.setForeground(new Color(255, 45, 0));
+        lblNewLabel_4.setFont(new Font("Arial", Font.BOLD, 18));
+        lblNewLabel_4.setBounds(150, -30, 367, 85);
+        panel.add(lblNewLabel_4);
     }
 }
                

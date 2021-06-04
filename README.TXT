@@ -10,13 +10,17 @@ Github repository link: https://github.com/usi-pf2-2021/project-simplifier-likol
 How to run the project:
 
 1) Open Blue
-2) Go on the Jexpression class 
+2) Go on the JWelcome class 
 3) Right click on it 
 4) Call the method run on it 
 5) Command Line Appears 
 6) Hit ENTER
-7) Insert your tree 
-8) Click the Generate button
+7) Welcome Screen Appears
+8) Hit ENTER or SPACE if you want to continue.
+9) Enter your Math Expression
+10) Click Generate
+11) You now have the tree
+OPTIONAL: Hit "R" or "D" key if you want to close the game immediately.
 
 
 

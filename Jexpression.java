@@ -123,5 +123,12 @@ public class Jexpression extends JFrame {
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
 		btnNewButton.setBounds(144, 185, 145, 33);
 		panel.add(btnNewButton);
+		
+	JLabel lblNewLabel_4 = new JLabel("(c) Kelvin Likollari");
+        lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+        lblNewLabel_4.setForeground(new Color(255, 45, 0));
+        lblNewLabel_4.setFont(new Font("Arial", Font.BOLD, 18));
+        lblNewLabel_4.setBounds(150, -30, 367, 85);
+        panel.add(lblNewLabel_4);
 	}
 }
