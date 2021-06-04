@@ -2,7 +2,7 @@ ReadMe File for Expression Simplifier Project
 
 Expression Simplifier Project Developed by Kelvin Likollari.
 
-Benincasa Nicolo Vladimir did 0 contributions to the project.
+Benincasa Nicolo Vladimir did ΝΟ contributions to the project.
 
 Github repository link: https://github.com/usi-pf2-2021/project-simplifier-likollari-benincasa
 
@@ -17,11 +17,6 @@ How to run the project:
 6) Hit ENTER
 7) Insert your tree 
 8) Click the Generate button
-
-
-
-
-
 
 
 
