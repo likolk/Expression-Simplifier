@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=validExpression
+comment1.params=equ
+comment1.target=boolean\ checkValid(char[])
+comment1.text=\n\ @param\ args\ the\ command\ line\ arguments\n
+comment2.params=c
+comment2.target=boolean\ isOpen(char)
+comment3.params=c
+comment3.target=boolean\ isNumber(char)
+comment4.params=c
+comment4.target=boolean\ isOp(char)
+comment5.params=c
+comment5.target=boolean\ isClose(char)
+comment6.params=temp\ c
+comment6.target=boolean\ doMatch(char,\ char)
+numComments=7

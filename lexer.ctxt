@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=Lexer
-comment0.text=\n\ Write\ a\ description\ of\ class\ lexer\ here.\n\ @author\ (Kelvin\ Likollari)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=Lexer()
 comment2.params=s
 comment2.target=Lexer(java.lang.String)
 comment3.params=
 comment3.target=void\ init()
-numComments=4
+comment4.params=
+comment4.target=java.lang.String\ getLine()
+comment5.params=
+comment5.target=void\ getToken()
+numComments=6
