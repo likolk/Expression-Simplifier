@@ -2,6 +2,8 @@ ReadMe File:
 
 Project Developed by Kelvin Likollari.
 
+Working GUI - lacking a few things
+
 
 
 
