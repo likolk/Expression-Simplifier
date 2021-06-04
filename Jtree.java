@@ -14,6 +14,9 @@ import java.awt.Graphics;
 
 import javax.swing.SwingConstants;
 import java.awt.Color;
+
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 /**
  * Write a description of class Jtree here.
  *
@@ -41,6 +44,18 @@ public class Jtree extends JFrame {
 	 * Create the frame.
 	 */
 	public Jtree() {
+	    this.addKeyListener(new KeyAdapter() {
+	        public void keyPressed(KeyEvent e) {
+	            if (e.getKeyChar() == 'd' || e.getKeyChar() == 'r') {
+	                System.exit(0);
+	               }
+	           }
+	       });
+	   
+	    
+	    
+	    
+	    
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 704, 446);
 		contentPane = new JPanel();
@@ -71,6 +86,13 @@ public class Jtree extends JFrame {
 		tree.setBorder (BorderFactory.createEtchedBorder ()); 
 		panel.add(tree);
 		
+	JLabel lblNewLabel_4 = new JLabel("(c) Kelvin Likollari");
+        lblNewLabel_4.setHorizontalAlignment(SwingConstants.CENTER);
+        lblNewLabel_4.setForeground(new Color(255, 45, 0));
+        lblNewLabel_4.setFont(new Font("Arial", Font.BOLD, 18));
+        lblNewLabel_4.setBounds(150, -30, 367, 85);
+        panel.add(lblNewLabel_4);
 	}
+	
 
 }
