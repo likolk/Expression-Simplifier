@@ -32,12 +32,12 @@ public class Lexer {
      
 
           Lexer()
-          { buf = new BufferedReader(new InputStreamReader(System.in));
+          { buf = new BufferedReader(new InputStreamReader(System.in)); // reads text from a character-input stream. in stands for input stream
           }
           
           Lexer (String s)
             {
-                buf = new BufferedReader (new StringReader (s));
+                buf = new BufferedReader(new StringReader(s)); // reads text from an input string.
             }
 
           void init()
@@ -45,16 +45,20 @@ public class Lexer {
                 do
                     try
                     {
-                        line = buf.readLine ().trim ();
-                        if (! line.endsWith (";"))
-                            line = String.format ("%s;", line);
+                        line = buf.readLine ().trim (); //reads a line of text and removes white space from both sides of the text
+                        if (! line.endsWith (";")) // if the line ends with ;
+                            line = String.format ("%s;", line); // creates the string alongside with the line requirements.
                     }
-                    catch(Exception e)
+                    catch(Exception e) 
                     {
-                        System.out.println("Error in input");
-                        System.exit (1);
+                        System.out.println("Error in input"); // the line above catch(Exception e) is a block of code used to handle errors
+                        // it basically says what to do if we encounter an error.
+                        System.exit (1); // system.exit(1) is used for when some error occured and we must exit. We can also used -1 instead of 1.
+                        
                     }
-                while (line.length () == 0);
+                while (line.length () == 0); {
+                    return;
+                }
             
           }
 
@@ -63,6 +67,16 @@ public class Lexer {
             return(line);
           }
 
+      
+                
+                    
+                        
+                
+            
+                    
+                    
+          
+          
           void getToken()
           { if (line.length() == 0)
             token = err;
@@ -104,11 +118,12 @@ public class Lexer {
                 { token = num;
                   numval = line.charAt(0) - '0';
                   int i = 1;
-                  while (i<line.length()&&Character.isDigit(line.charAt(i)))
+                  while (i<line.length() && Character.isDigit(line.charAt(i)))
                   { numval = numval*10+line.charAt(i)-'0';
                     i++;
                   }
                   line = line.substring(i).trim();
+                  
                 }
                 else if (Character.isLowerCase(line.charAt(0)))
                 { char c = line.charAt(0);
@@ -134,6 +149,5 @@ public class Lexer {
                   token = err;
             }
           }
+        }
 
-
-}
